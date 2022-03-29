@@ -1,6 +1,6 @@
 {
   "homepage": "https://OrcaOverdrive.github.io",
-  "name": "Orca Overdrive Website",
+  "name": "OrcaOverdrive-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
