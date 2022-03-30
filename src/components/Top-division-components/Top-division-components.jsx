@@ -30,26 +30,23 @@ function Myinfo() {
     <div className="Myinfo">
       <About />
       <p> {TOP_SECTION.SHORT_DESCRIPTION}</p>
-      <div className="join_dis">
-        <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
-          <Btn
-            ico=""
-            class="join_disco"
-            type="Join our discord"
-            overlay="Joint our discord"
-          />
+      <div class="button_strip">
+        <a href={TOP_SECTION.JUDGES_FORM_LINK}>
+          {" "}
+          <Btn class="student_btn" type="Student" overlay="Join Team" />
         </a>
-      </div>
-      {/* This is judges application button */}
-      <a href={TOP_SECTION.JUDGES_FORM_LINK}>
-        {" "}
-        <Btn class="sponsor_btn" type="Join Team" overlay="Join Team" />
-      </a>
 
-      <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
-        {" "}
-        <Btn class="register" type="Mentor" overlay="Mentor" />
-      </a>
+        <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
+          {" "}
+          <Btn class="mentor_btn" type="Mentor" overlay="Join Team" />
+        </a>
+
+        <a rel="noreferrer" href="#sponsors">
+          {" "}
+          <Btn class="sponsor_btn" type="Sponsor" overlay="Fund Us" />
+        </a>
+
+      </div>
     </div>
   );
 }

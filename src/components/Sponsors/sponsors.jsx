@@ -18,10 +18,15 @@ function Sponsor(props) {
 function SponsorUS() {
   return (
     <div className="joinT sponsorUS">
-      <h3>Interested in Sponsoring </h3>
-      <a href={SOCIALS.email}>
-        <Btn className="sponsor_btn" type="Sponsor us" overlay="Send a mail" />
-      </a>{" "}
+      <h3>Interested in Sponsoring? </h3>
+      <div className="sponsor_button_strip">
+        <a href="https://www.gofundme.com/f/donate-to-support-youth-in-robotics">
+        <Btn className="sponsor_btn" type="Go Fund Me" overlay="Fund Us" />
+        </a>
+        <a href="https://docs.google.com/spreadsheets/d/18jNzWtXe830Clv4QDvzpHGL6KatajCeMBhL5QdmMng4/edit?usp=sharing">
+        <Btn ClassName="sponsor_btn" type="Parts List" overlay="Supply Us"/>
+        </a>
+      </div>{" "}
     </div>
   );
 }

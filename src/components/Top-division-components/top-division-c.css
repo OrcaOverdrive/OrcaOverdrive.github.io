@@ -20,22 +20,15 @@ button {
   position: relative;
 }
 
-.join_disco {
-  width: 25rem;
-  background: linear-gradient(90deg, #9796F0 0%, #FBC7D4 100%);
+.button_strip{
+  margin-right: 18rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.join_disco i {
-  margin-right: 10px;
-}
-
-.join_dis {
-  margin-bottom: 29px;
-  margin-top: 19px;
-}
-
-.register {
-  margin-left: 9rem;
+.mentor_btn {
   border: 2px solid rgb(255, 255, 255);
   background-color: transparent;
 }

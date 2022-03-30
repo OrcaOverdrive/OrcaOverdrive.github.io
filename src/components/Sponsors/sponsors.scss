@@ -44,3 +44,9 @@
     0% { transform: translateY(0); }
     100% { transform: translateY(-20px); }
   }
+  .sponsor_button_strip{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }

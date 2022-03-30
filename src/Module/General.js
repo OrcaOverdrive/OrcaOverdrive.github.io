@@ -1,16 +1,7 @@
 // Importing all sponsors logos from Assets
-import taskade from "./Assets/sponsorsLogos/taskade.png";
-import Replit from "./Assets/sponsorsLogos/replit.png";
-import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
-import echoAR from "./Assets/sponsorsLogos/echoAR.png";
-import cfc from "./Assets/sponsorsLogos/cfc.png";
-import pass from "./Assets/sponsorsLogos/1pass.png";
-import glimpse from "./Assets/sponsorsLogos/glimpse.png";
-import qoom from "./Assets/sponsorsLogos/qoom.svg";
-import sublime from "./Assets/sponsorsLogos/sublime.png";
-import egg from "./Assets/sponsorsLogos/egg.png";
-import ll from "./Assets/sponsorsLogos/ll.png";
-import ACF from "./Assets/sponsorsLogos/ACF.png";
+import zen from "./Assets/sponsorsLogos/zen.jpg";
+import nvsd44 from "./Assets/sponsorsLogos/nvsd44.jpg";
+import carson from "./Assets/sponsorsLogos/LogoHeader.png";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -25,13 +16,15 @@ import lyin from "./Assets/teami/lyin.jpg";
 import zoha from "./Assets/teami/zoha.png";
 import Zach from "./Assets/teami/Zach.jpg";
 import John from "./Assets/teami/John.jpg";
+import Ross from "./Assets/teami/Ross.jfif";
+import Robert from "./Assets/teami/robert.jpg";
 
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
  * or you can provide a cloud link in src also
  */
 
-import boy from "./Assets/boy.png";
+import boy from "./Assets/Logo.svg";
 
 
 
@@ -102,7 +95,7 @@ const Prizeinfo = [
     //Array 1
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: "FIRST Paci : Quarter Semi-Finalists",
+      type: "FRC 2022: Quarter-Finalists",
       content:
         "Competed in Canadian Pacific North Western FRC Competition in 2022 and made it to the Quater Semi-Finals.",
       src: "https://youtube.com/playlist?list=PLZT9pIgNOV6Zm41-OUqrR1KSHAmyMul1w"
@@ -120,21 +113,21 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: "Vince",
+      name: "Vince",
       role: "Team Captain",
       github: "",
       linkedin: "",
       img: me
     },
     {
-      Name: "Hoshyar",
+      name: "Hoshyar",
       role: "Member",
       github: "",
       linkedin: "",
       img: moon
     },
     {
-      Name: "Eemaan",
+      name: "Eemaan",
       role: "Member",
       github: "",
       linkedin: "",
@@ -144,21 +137,21 @@ const TeamInfo = [
   [
     //Array 2
     {
-      Name: "Connor",
+      name: "Connor",
       role: "Member",
       github: "",
       linkedin: "",
       img: lyin
     },
     {
-      Name: "Andy",
+      name: "Andy",
       role: "Member",
       github: "",
       linkedin: "",
       img: zoha
     },
     {
-      Name: "Daylen",
+      name: "Daylen",
       role: "Member",
       github: "",
       linkedin: "",
@@ -171,35 +164,35 @@ const JudgesInfo = [
   [
     //Array 1
     {
-      Name: "Zachary Anderson",
+      name: "Zachary Anderson",
       role: "Lead Mentor",
       github: "https://github.com/ZachaRuba",
       linkedin: "https://www.linkedin.com/in/zachary-anderson-434084167/",
       img: Zach
     },
     {
-      Name: "John Omeljaniuk",
+      name: "John Omeljaniuk",
       role: "Mentor",
       github: "",
       linkedin: "",
       img: John
     },
     {
-      Name: "Robert Olson",
+      name: "Robert Olson",
       role: "Mentor",
       github: "",
       linkedin: "",
-      img: Ryah
+      img: Robert
     }
   ],
   [
     //Array 2
     {
-      Name: "Ross Janke",
+      name: "Ross Janke",
       role: "Mentor",
       github: "",
       linkedin: "",
-      img: lyin
+      img: Ross
     }  
   ] 
 ];
@@ -212,10 +205,7 @@ const JudgesInfo = [
  */
 
 const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{src: zen}, {src: nvsd44}, {src: carson}] //Array 1
 ];
 
 /** Instructions

@@ -46,7 +46,7 @@ function SponsorGroup(props) {
 
 function PrizeGroup(props) {
   return (
-    <Row>
+    <Row className="">
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={6}>
           <FirstPrize icon={s.icon} type={s.type} content={s.content} />
@@ -123,7 +123,7 @@ export default function HomePage(props) {
          </div>  
 
         <Row className="prizesection" id="prizes">
-          <PrizeHeading type="Prize section" />
+          <PrizeHeading type="Competitions" />
           {Prizeinfo.map(PrizeGroup)}
         </Row>
 
@@ -135,7 +135,7 @@ export default function HomePage(props) {
 
         <Birds top="120vh" left="0vh" type="" />
 
-        <h1 id="team">Team</h1>
+        <h1 id="team">Students</h1>
         {FOOTER.JOIN_TEAM.required && <JoinTeam placeholder="Join our team" formLink={FOOTER.JOIN_TEAM} content="Interested in joining our team" />}
         {TeamInfo.map(TeamMembers)}
 
