@@ -7,7 +7,7 @@ function JoinTeam({placeholder, formLink, content}) {
     <div className="joinT">
       <h3>{content} </h3>
       <a href={formLink}>
-        <Btn type={placeholder} overlay="Fill the form" link={formLink} />
+        <Btn type={placeholder} overlay="Email us." link={formLink} />
       </a>
     </div>
   );

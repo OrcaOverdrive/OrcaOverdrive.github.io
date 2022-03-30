@@ -108,7 +108,7 @@ export default function HomePage(props) {
         </Container>
       </div>
       <Container fluid>
-        {/* Logo section  */}
+
         <Row className=" logoSection">
           <Col className="info-div" sm={12} lg={8} md={8}>
             <LogoSectionAbout />
@@ -118,47 +118,32 @@ export default function HomePage(props) {
           </Col>
         </Row>
 
-        {/* ********Frequently asked Questions here ***** */}
         <div className="Myfaqs" id="faq">
         {frequentlyAskedQuestions.map(FrequentlyAsked)}
-        {/* ********Frequently asked Questions ending here ***** */}
          </div>  
 
-        {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prize section" />
           {Prizeinfo.map(PrizeGroup)}
         </Row>
-        {/* ********Prizes ending here ***** */}
-
-        <Row className="prizesection non-coding">
-          <PrizeHeading type="Non-coding prizes" />
-          <h2>coming soon</h2>
-        </Row>
-
-        {/* ********Sponsors here ***** */}
 
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           <SponsorUS />
           {sponsorLogos.map(SponsorGroup)}
         </Row>
-        {/* ********Sponsors ending here ***** */}
 
         <Birds top="120vh" left="0vh" type="" />
 
-        {/* ********Team here ***** */}
-        <h1 id="team">Our Team</h1>
+        <h1 id="team">Team</h1>
         {FOOTER.JOIN_TEAM.required && <JoinTeam placeholder="Join our team" formLink={FOOTER.JOIN_TEAM} content="Interested in joining our team" />}
         {TeamInfo.map(TeamMembers)}
-        {/* ********Team ending here ***** */}
 
-        {/* ********Judges here ***** */}
         
-        <h1 id="team">Judges</h1>
-        {FOOTER.JOIN_TEAM.required && <JoinTeam placeholder="Join our team" formLink={TOP_SECTION.JUDGES_FORM_LINK} content="Interested in being judge" />}
+        <h1 id="team">Mentors</h1>
+        {FOOTER.JOIN_TEAM.required && <JoinTeam placeholder="Join our team" formLink={TOP_SECTION.JUDGES_FORM_LINK} content="Interested in being a mentor" />}
         {JudgesInfo.map(TeamMembers)}
-        {/* ********Team ending here ***** */}
+
 
       </Container>
       <Footer />
