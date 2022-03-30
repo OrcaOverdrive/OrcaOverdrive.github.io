@@ -85,7 +85,7 @@ export default function Footer() {
           )}
           <p>Made with ❤️</p>
         </div>
-        {template && viewTemplate&& <GithubTemplate hideTemplate={() => setViewTemplate(false)} />}
+        
       </div>
     </div>
   );
