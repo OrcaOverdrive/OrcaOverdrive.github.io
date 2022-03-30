@@ -12,20 +12,6 @@ import {Btn} from "../Top-division-components/Top-division-components.jsx";
 import cross from "./cross.svg";
 import {SOCIALS, TOP_SECTION, FOOTER} from "../../Module/General";
 
-function GithubTemplate({hideTemplate}) {
-  return (
-    <div className="template">
-      <div className="template-left">
-        <p>
-          Join us to  <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>Gear Up</a>, where we will be hosting PUBLIC workshops,
-          tech talks, panel discussions, and career sessions!
-        </p>
-      </div>
-      <img onClick={hideTemplate} src={cross} />
-    </div>
-  );
-}
-
 export default function Footer() {
   const [template, setTemplate] = useState(false);
   const [viewTemplate, setViewTemplate] = useState(true)
